@@ -1,6 +1,4 @@
 import java.util.Scanner;
-import java.util.LinkedList;
-
 public class LUR_pg_repalcement {
 
     public static void main(String[] args) {
@@ -13,6 +11,8 @@ public class LUR_pg_repalcement {
         int[][] arr = new int[framesize][2];
         int pg_fault = 0, pg_hit = 0;
         System.out.println(" Enter frame string : ");
+       
+        //initial frame widow as -1 
         for (int i = 0; i < framesize; i++) {
             arr[i][0]=-1;
             arr[i][1]=-1;
